@@ -1,0 +1,121 @@
+body{
+ background: #f4f4f4;
+ font-size: 1em;
+ font-family: Arial, helvetica, sans-serif;
+}
+
+/*Cabeçalho*/
+
+header{
+  background: #f7b500c4;
+  height: 150px;
+  text-align: center;
+  }
+
+header h1{
+  line-height: 150px;
+}
+
+.cor{
+  color: white;
+}
+
+/*principal*/
+
+main{
+  width: 920px;
+  background-color: #fff;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+#pesquisar{
+  border: 1px solid red;
+  width: 900px;
+  height: 450px;
+  background: rgba(0, 0, 255, 0.437);
+  margin: 15px auto 15px auto;
+  text-align: center;
+}
+
+article#temp-fixo{
+  border: 2px solid red;
+  display: flex;  
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+
+  
+
+}
+#caixa{  
+  border: 2px solid red;
+  background: #ccc;
+  width: 285px; 
+  height: 293px;   
+  margin: 10px; 
+}
+
+
+
+/*pesquisa*/
+
+#barra-pesquisa{
+  margin: 10px ;
+  width: 85%;
+  height: 20%;
+}
+
+#pesquisa{
+  border: 2px solid red;
+}
+
+#informacao{
+  border: 2px solid red;
+  width: 350px;
+  height: 350px;
+  margin: auto auto;
+  font-size: 1em;
+  text-align: center;
+  padding: 3px;
+  color: #fff;
+}
+
+#pais{
+  height: 20px;
+}
+
+#detalhes-container{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#detalhes-container #umidade{
+  border-right: 1px solid #fff;
+  margin: 10px;
+  padding: 10px;
+}
+
+#vento{
+  margin-top: 20px;
+}
+
+
+#descricao{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#temperatura{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#weather-icon{
+  width: 100px;
+}
+
+
